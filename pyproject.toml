@@ -1,0 +1,26 @@
+[project]
+name = "deeppdf"
+version = "0.1.0"
+description = "Advanced PDF Question-Answering RAG system with multi-strategy retrieval benchmarking (Dense, BM25, Hybrid RRF, Multi-Query, HyDE, Cross-Encoder, Parent-Document, Adaptive Router)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.2.0",
+    "langchain-community>=0.2.0",
+    "langchain-core>=0.2.0",
+    "langchain-groq>=0.1.0",
+    "langchain-google-genai>=1.0.0",
+    "langchain-chroma>=0.1.0",
+    "chromadb>=0.5.0",
+    "pypdf>=4.0.0",
+    "rank_bm25>=0.2.2",
+    "sentence-transformers>=3.0.0",
+    "langchain-huggingface>=0.0.3",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.35.0",
+    "torchvision",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

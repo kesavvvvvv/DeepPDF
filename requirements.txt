@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-groq
+langchain-chroma
+chromadb
+pypdf
+rank_bm25
+sentence-transformers
+langchain-huggingface
+torchvision
+python-dotenv
+streamlit
+pytest
