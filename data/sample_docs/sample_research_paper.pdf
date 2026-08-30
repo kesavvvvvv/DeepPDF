@@ -1,0 +1,62 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1115 >>
+stream
+BT /F1 20 Tf 50 720 Td (DeepPDF: Advanced Retrieval Strategies in RAG Systems) Tj 0 -30 Td /F2 12 Tf (Authors: Kesav Satya Sai, AI Research Lab) Tj 0 -25 Td (Abstract) Tj 0 -15 Td /F3 10 Tf (Retrieval-Augmented Generation (RAG) combines parametric memory with external non-parametric retrieval.) Tj 0 -15 Td (Standard dense retrieval suffers from vocabulary mismatch, lost-in-the-middle phenomena, and low keyword fidelity.) Tj 0 -15 Td (This paper introduces DeepPDF, a benchmarked framework comparing 7 advanced retrieval techniques.) Tj 0 -30 Td /F2 12 Tf (1. Dense Vector Retrieval Baseline) Tj 0 -15 Td /F3 10 Tf (Dense retrieval maps document chunks into a continuous embedding space using sentence transformers.) Tj 0 -15 Td (Cosine similarity is computed: sim(q, d) = (q . d) / (||q|| * ||d||). Typical dimensionality is 384 dims.) Tj 0 -30 Td /F2 12 Tf (2. BM25 Lexical Keyword Search) Tj 0 -15 Td /F3 10 Tf (BM25 evaluates term frequency (TF) and inverse document frequency (IDF) with length normalization.) Tj 0 -15 Td (Parameters k1=1.5 and b=0.75 govern saturation and document length penalties.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 970 >>
+stream
+BT /F1 16 Tf 50 720 Td (3. Hybrid Search and Reciprocal Rank Fusion) Tj 0 -25 Td /F3 10 Tf (Hybrid search merges sparse lexical retrieval (BM25) with dense vector retrieval.) Tj 0 -15 Td (Reciprocal Rank Fusion (RRF) computes: RRF_score(d) = sum( 1 / (60 + rank_i(d)) ).) Tj 0 -15 Td (This achieves robust keyword matching (exact codes, acronyms) and deep semantic relevance.) Tj 0 -30 Td /F2 12 Tf (4. Multi-Query Expansion & Sub-Query Decomposition) Tj 0 -15 Td /F3 10 Tf (LLM generates 3-5 query variants from different perspectives to mitigate single-query bias.) Tj 0 -15 Td (Documents from all generated queries are fetched and deduplicated via union scoring.) Tj 0 -30 Td /F2 12 Tf (5. Hypothetical Document Embeddings (HyDE)) Tj 0 -15 Td /F3 10 Tf (HyDE instructs an LLM to generate a hypothetical answer document before embedding.) Tj 0 -15 Td (The hypothetical document is embedded, aligning the query closer to document passage vectors in latent space.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 959 >>
+stream
+BT /F1 16 Tf 50 720 Td (6. Two-Stage Cross-Encoder Re-Ranking) Tj 0 -25 Td /F3 10 Tf (First stage retrieves a wide candidate pool (top-25) using fast bi-encoder similarity.) Tj 0 -15 Td (Second stage computes all-to-all cross-attention between question and passage: score = CrossEncoder(q, d).) Tj 0 -15 Td (Top-k candidates (e.g. k=5) with highest re-ranking scores are provided to the generator.) Tj 0 -30 Td /F2 12 Tf (7. Hierarchical Parent-Child Chunking) Tj 0 -15 Td /F3 10 Tf (Documents are split into small 200-character child chunks for fine-grained vector similarity search.) Tj 0 -15 Td (Upon retrieval, child chunks map to their 1200-character parent chunk to give rich context to the LLM.) Tj 0 -30 Td /F2 12 Tf (8. Experimental Benchmark Results) Tj 0 -15 Td /F3 10 Tf (Cross-Encoder Re-ranking achieved highest MRR@5 (0.892) and NDCG@5 (0.914).) Tj 0 -15 Td (Hybrid RRF provided the best balance of latency (48ms) and Hit Rate@5 (96.4%).) Tj ET
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000128 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000348 00000 n 
+0000000494 00000 n 
+0000001661 00000 n 
+0000001807 00000 n 
+0000002828 00000 n 
+0000002976 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+3987
+%%EOF
