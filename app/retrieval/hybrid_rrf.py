@@ -1,3 +1,4 @@
+# Hybrid RRF Retriever with tuning support
 from collections import defaultdict
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
