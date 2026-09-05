@@ -1,3 +1,4 @@
+# MultiQuery Retriever
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from app.retrieval.base import BaseRetrievalStrategy
