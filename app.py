@@ -25,7 +25,7 @@ from app.evaluation.benchmark import run_benchmark
 # Page config
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="DeepPDF - Document Intelligence",
+    page_title="DeepPDF - Advanced Retrieval RAG & Benchmarks",
     page_icon="assets/logo.png",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -536,3 +536,5 @@ else:
                 })
                 st.dataframe(df, use_container_width=True)
                 st.bar_chart(df.set_index("Strategy")["Avg Latency (ms)"])
+
+# Comparison mode enabled
