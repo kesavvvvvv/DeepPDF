@@ -536,5 +536,3 @@ else:
                 })
                 st.dataframe(df, use_container_width=True)
                 st.bar_chart(df.set_index("Strategy")["Avg Latency (ms)"])
-
-# Comparison mode enabled
