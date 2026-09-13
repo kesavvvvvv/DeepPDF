@@ -3,7 +3,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] /Count 6 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
@@ -18,45 +18,188 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
 endobj
 7 0 obj
-<< /Length 1115 >>
+<< /Length 3313 >>
 stream
-BT /F1 20 Tf 50 720 Td (DeepPDF: Advanced Retrieval Strategies in RAG Systems) Tj 0 -30 Td /F2 12 Tf (Authors: Kesav Satya Sai, AI Research Lab) Tj 0 -25 Td (Abstract) Tj 0 -15 Td /F3 10 Tf (Retrieval-Augmented Generation (RAG) combines parametric memory with external non-parametric retrieval.) Tj 0 -15 Td (Standard dense retrieval suffers from vocabulary mismatch, lost-in-the-middle phenomena, and low keyword fidelity.) Tj 0 -15 Td (This paper introduces DeepPDF, a benchmarked framework comparing 7 advanced retrieval techniques.) Tj 0 -30 Td /F2 12 Tf (1. Dense Vector Retrieval Baseline) Tj 0 -15 Td /F3 10 Tf (Dense retrieval maps document chunks into a continuous embedding space using sentence transformers.) Tj 0 -15 Td (Cosine similarity is computed: sim(q, d) = (q . d) / (||q|| * ||d||). Typical dimensionality is 384 dims.) Tj 0 -30 Td /F2 12 Tf (2. BM25 Lexical Keyword Search) Tj 0 -15 Td /F3 10 Tf (BM25 evaluates term frequency (TF) and inverse document frequency (IDF) with length normalization.) Tj 0 -15 Td (Parameters k1=1.5 and b=0.75 govern saturation and document length penalties.) Tj ET
+BT /F1 16 Tf 40 740 Td (NEURALINK N1 BRAIN-COMPUTER INTERFACE: TECHNICAL ARCHITECTURE & PRIME STUDY) Tj
+0 -18 Td /F2 10 Tf (Document: NL-ENG-2026-N1-WP | Neuralink Neuroengineering, Robotic Surgery & Clinical Systems) Tj
+0 -14 Td /F2 9 Tf (Classification: Technical Whitepaper | Target Device: N1 Intracortical Telemetry System) Tj
+0 -20 Td /F1 11 Tf (1. Abstract & Clinical Motivation) Tj
+0 -12 Td /F3 8.5 Tf (Intracortical brain-computer interfaces (BCIs) record multi-unit action potentials directly from the cerebral cortex to restore motor,) Tj
+0 -10.5 Td /F3 8.5 Tf (sensory, and digital autonomy to patients suffering from tetraplegia, severe cervical spinal cord injury (SCI, C1-C4), and amyotrophic) Tj
+0 -10.5 Td /F3 8.5 Tf (lateral sclerosis (ALS). Historical intracortical arrays (e.g., the silicon Utah microelectrode array) relied on rigid percutaneous wired pedestals) Tj
+0 -10.5 Td /F3 8.5 Tf (protruding through the cranium, posing chronic infection risks, tissue shear inflammation, and restricted mobility. The Neuralink N1 system) Tj
+0 -10.5 Td /F3 8.5 Tf (presents a fully implanted, cosmetically invisible, high-channel-count, ultra-low-power wireless BCI capable of continuous neural streaming.) Tj
+0 -16 Td /F1 11 Tf (2. End-to-End System Topology) Tj
+0 -12 Td /F3 8.5 Tf (The complete system architecture comprises three interconnected sub-systems: (1) The N1 Implantable Neuro-telemetry Device,) Tj
+0 -10.5 Td /F3 8.5 Tf (hermetically sealed within a cranial skull pocket; (2) The R1 Robotic Insertion System, executing autonomous stereotaxic micro-thread) Tj
+0 -10.5 Td /F3 8.5 Tf (implantation with micron-scale vascular collision avoidance; and (3) The User Terminal Processing Engine (running on iOS/macOS/Windows),) Tj
+0 -10.5 Td /F3 8.5 Tf (which performs continuous closed-loop kinematic decoding, spike sorting, and Bluetooth Low Energy (BLE) encrypted handshake.) Tj
+0 -16 Td /F1 11 Tf (3. Biocompatible Thin-Film Microelectrode Array Specifications) Tj
+0 -12 Td /F3 8.5 Tf (The sensor array features 1024 recording microelectrodes distributed across 64 individual thin-film polyimide threads (16 sites per thread).) Tj
+0 -10.5 Td /F3 8.5 Tf (Each polyimide ribbon has a thickness of 4 to 6 micrometers, a width tapering from 50 um at the base to 5 um at the tip, and an insertion) Tj
+0 -10.5 Td /F3 8.5 Tf (depth of 3.5 to 5.0 mm into precentral motor cortex targeting Layer V large pyramidal projection neurons. The extreme mechanical flexibility) Tj
+0 -10.5 Td /F3 8.5 Tf (minimizes brain parenchymal shear strain and glial scar formation (astrogliosis), drastically extending chronical recording stability.) Tj
+0 -12 Td /F2 8.5 Tf (Electrochemical Properties:) Tj
+0 -10.5 Td /F3 8.5 Tf (- Electrode Material: Sputtered Iridium Oxide Film (SIROF) and electrochemically deposited PEDOT:PSS conductive polymer.) Tj
+0 -10.5 Td /F3 8.5 Tf (- 1 kHz Electrochemical Impedance: 20 to 35 kOhms (mean: 24.8 kOhms), providing high signal-to-noise ratio (SNR > 6.8 dB).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Charge Storage Capacity (CSC): 120 to 180 mC/cm^2, supporting safe bidirectional microstimulation up to 100 uA pulses.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Thread Spacing & Geometry: Geometric pitch of 50 to 250 um between adjacent recording sites, enabling high-density spatial sampling.) Tj
+ET
 endstream
 endobj
 8 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
 endobj
 9 0 obj
-<< /Length 970 >>
+<< /Length 2340 >>
 stream
-BT /F1 16 Tf 50 720 Td (3. Hybrid Search and Reciprocal Rank Fusion) Tj 0 -25 Td /F3 10 Tf (Hybrid search merges sparse lexical retrieval (BM25) with dense vector retrieval.) Tj 0 -15 Td (Reciprocal Rank Fusion (RRF) computes: RRF_score(d) = sum( 1 / (60 + rank_i(d)) ).) Tj 0 -15 Td (This achieves robust keyword matching (exact codes, acronyms) and deep semantic relevance.) Tj 0 -30 Td /F2 12 Tf (4. Multi-Query Expansion & Sub-Query Decomposition) Tj 0 -15 Td /F3 10 Tf (LLM generates 3-5 query variants from different perspectives to mitigate single-query bias.) Tj 0 -15 Td (Documents from all generated queries are fetched and deduplicated via union scoring.) Tj 0 -30 Td /F2 12 Tf (5. Hypothetical Document Embeddings (HyDE)) Tj 0 -15 Td /F3 10 Tf (HyDE instructs an LLM to generate a hypothetical answer document before embedding.) Tj 0 -15 Td (The hypothetical document is embedded, aligning the query closer to document passage vectors in latent space.) Tj ET
+BT /F1 13 Tf 40 740 Td (4. Custom Mixed-Signal ASIC & On-Chip Neural Signal Processing) Tj
+0 -18 Td /F3 8.5 Tf (At the heart of the N1 implant is a monolithic custom mixed-signal application-specific integrated circuit (ASIC) fabricated on a 28nm TSMC) Tj
+0 -10.5 Td /F3 8.5 Tf (low-power CMOS process node, measuring 4.8 mm x 4.8 mm. The ASIC integrates 1024 independent low-noise Analog Front Ends (AFEs).) Tj
+0 -15 Td /F1 11 Tf (4.1. Analog Front End (AFE) Architecture & Specifications) Tj
+0 -12 Td /F3 8.5 Tf (- Number of Channels: 1024 fully differential channels with programmable gain (40 dB to 70 dB in 6 dB increments).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Input-Referred Noise: < 4.2 uVrms integrated over the 300 Hz to 7.5 kHz action potential recording bandwidth.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Common-Mode Rejection Ratio (CMRR): > 85 dB at 50/60 Hz and 1 kHz; Power Supply Rejection Ratio (PSRR) > 80 dB.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Power Dissipation: 5.2 uW per channel AFE; total 1024-channel analog core consumes only 5.32 mW of power.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Analog-to-Digital Conversion: 10-bit Successive Approximation Register (SAR) ADCs sampling at 20.0 kHz per channel.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Aggregate Raw Bandwidth: 20.48 MSamples/sec (204.8 Mbps raw uncompressed neural data output).) Tj
+0 -15 Td /F1 11 Tf (4.2. On-Chip Digital Filtering & Spike Event Detection) Tj
+0 -12 Td /F3 8.5 Tf (Transmitting raw 204.8 Mbps exceeds wireless BLE capacity and battery thermal limits. The digital signal processing (DSP) block computes:) Tj
+0 -10.5 Td /F3 8.5 Tf (1. Digital Bandpass Filter: 4th-order cascaded IIR filter with 300 Hz high-pass and 5 kHz low-pass cutoff frequencies.) Tj
+0 -10.5 Td /F3 8.5 Tf (2. Non-Linear Energy Operator (NEO): Real-time instantaneous energy computed as psi[x(n)] = x^2(n) - x(n-1)x(n+1).) Tj
+0 -10.5 Td /F3 8.5 Tf (3. Dynamic Thresholding: Trigger threshold set to Vth = -4.5 * sigma_n, where sigma_n = median(|x(n)| / 0.6745) estimated on-chip.) Tj
+0 -10.5 Td /F3 8.5 Tf (4. Spike-Band Power (SBP): Computes root-mean-square energy within 20ms bins per channel, reducing data telemetry to 200 Hz per channel.) Tj
+0 -10.5 Td /F3 8.5 Tf (5. Dual Telemetry Modes: Mode A (SBP Stream at 200 kbps for continuous cursor decoding); Mode B (Raw 20 kHz Snapshot Stream for calibration).) Tj
+ET
 endstream
 endobj
 10 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
 endobj
 11 0 obj
-<< /Length 959 >>
+<< /Length 2014 >>
 stream
-BT /F1 16 Tf 50 720 Td (6. Two-Stage Cross-Encoder Re-Ranking) Tj 0 -25 Td /F3 10 Tf (First stage retrieves a wide candidate pool (top-25) using fast bi-encoder similarity.) Tj 0 -15 Td (Second stage computes all-to-all cross-attention between question and passage: score = CrossEncoder(q, d).) Tj 0 -15 Td (Top-k candidates (e.g. k=5) with highest re-ranking scores are provided to the generator.) Tj 0 -30 Td /F2 12 Tf (7. Hierarchical Parent-Child Chunking) Tj 0 -15 Td /F3 10 Tf (Documents are split into small 200-character child chunks for fine-grained vector similarity search.) Tj 0 -15 Td (Upon retrieval, child chunks map to their 1200-character parent chunk to give rich context to the LLM.) Tj 0 -30 Td /F2 12 Tf (8. Experimental Benchmark Results) Tj 0 -15 Td /F3 10 Tf (Cross-Encoder Re-ranking achieved highest MRR@5 (0.892) and NDCG@5 (0.914).) Tj 0 -15 Td (Hybrid RRF provided the best balance of latency (48ms) and Hit Rate@5 (96.4%).) Tj ET
+BT /F1 13 Tf 40 740 Td (5. R1 Robotic Surgical Insertion System & Computer Vision Navigation) Tj
+0 -18 Td /F3 8.5 Tf (Because 4-micrometer flexible polyimide ribbons buckle under axial load, manual insertion with surgical forceps is impossible.) Tj
+0 -10.5 Td /F3 8.5 Tf (The Neuralink R1 Robotic Surgical System executes automated, micron-precision insertion while avoiding surface cerebral vasculature.) Tj
+0 -15 Td /F1 11 Tf (5.1. Robotic Hardware & Optical Diagnostics) Tj
+0 -12 Td /F3 8.5 Tf (- Gantry Kinematics: 5-axis Cartesian-rotational positioning stage with sub-micron (0.2 um) encoder resolution and 100 nm repeatability.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Optical Coherence Tomography (OCT): 1310 nm swept-source OCT providing 8 um axial resolution for real-time pial surface depth tracking.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Multi-Camera Stereo Vision: Dual 4K optical sensors with polarized annular LED ring illumination to eliminate specular brain reflections.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Insertion Needle Assembly: 40 um outer diameter tungsten-carbide needle with a laser-machined micro-hook and vacuum pincher.) Tj
+0 -15 Td /F1 11 Tf (5.2. Automated Vascular Segmentation & Path Planning) Tj
+0 -12 Td /F3 8.5 Tf (- Vascular Mapping: Deep convolutional neural network (U-Net) segments superficial cortical arteries and veins down to 15 um diameter.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Safe Corridor Computation: Insertion trajectory planner solves constrained optimization to enforce > 75 um clearance from any vessel.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Dynamic Insertion Profile: Needle accelerates at 1.2 mm/s through pia mater to prevent tenting, decelerating at target Layer V depth.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Retraction Mechanism: Vacuum collet releases the thread loop, needle retracts cleanly, achieving 64 threads (1024 electrodes) in < 22 minutes.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Intraoperative Hemorrhage Rate: 0.0% surface vascular ruptures recorded across clinical PRIME study participant surgeries.) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 2092 >>
+stream
+BT /F1 13 Tf 40 740 Td (6. Hermetic Biocompatible Packaging, Wireless Telemetry & Inductive Power) Tj
+0 -18 Td /F3 8.5 Tf (The N1 implant is housed in a hermetically sealed circular package measuring 23.0 mm in diameter and 8.0 mm in total axial thickness.) Tj
+0 -10.5 Td /F3 8.5 Tf (The package is flush-mounted into a precision trephine craniectomy pocket in the calvarium, sealed without skin-penetrating wires.) Tj
+0 -15 Td /F1 11 Tf (6.1. Materials, Enclosure & Micro-Feedthroughs) Tj
+0 -12 Td /F3 8.5 Tf (- Enclosure Material: Medical-grade Grade-5 Titanium Alloy (Ti-6Al-4V ELI) laser welded with hermetic helium leak rate < 5e-10 atm-cc/sec.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Top Substrate: Polished single-crystal sapphire (Al2O3) radiofrequency window allowing 2.4 GHz RF and 6.78 MHz magnetic flux propagation.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Feedthrough Interconnect: 1024-channel high-density co-fired multi-layer platinum/gold ceramic feedthrough (pitch: 120 um).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Thermal Dissipation: Operating power < 12.0 mW ensures cortical surface temperature elevation remains < 0.8 deg C (ISO 14708-3 compliant).) Tj
+0 -15 Td /F1 11 Tf (6.2. Wireless Telemetry Link & Cryptographic Security) Tj
+0 -12 Td /F3 8.5 Tf (- Radio Protocol: Custom ultra-low-power Bluetooth Low Energy 5.3 physical layer operating in the 2.402 to 2.480 GHz ISM frequency band.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Sustained Telemetry Data Rate: 2.2 Mbps throughput with forward error correction (FEC) and packet retransmission (ARQ).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Cryptographic Architecture: Hardware AES-128-GCM authenticated encryption for all neural packet payloads; ECDSA-P256 device pairing.) Tj
+0 -15 Td /F1 11 Tf (6.3. Inductive Power Transfer & Battery Subsystem) Tj
+0 -12 Td /F3 8.5 Tf (- Battery Cell: Custom hermetic lithium-polymer rechargeable cell (250 mAh capacity, 3.8V nominal, 12.5 hours active streaming runtime).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Wireless Charging: 6.78 MHz magnetic resonant coupling from external headwear coil; 0 to 100% recharge in 75 minutes at 1.5W input.) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 2831 >>
+stream
+BT /F1 13 Tf 40 740 Td (7. Real-Time Motor Intention Decoding Algorithms & Latency Pipeline) Tj
+0 -18 Td /F3 8.5 Tf (Neural signals received by the user terminal are converted into continuous 2D/3D cursor velocity vectors and discrete click states.) Tj
+0 -10.5 Td /F3 8.5 Tf (The closed-loop decoding pipeline executes at 50 Hz update rate (every 20 ms) with end-to-end user perceived latency < 18 ms.) Tj
+0 -15 Td /F1 11 Tf (7.1. Decoding Architecture: Kalman Filter & Recurrent Neural Network) Tj
+0 -12 Td /F3 8.5 Tf (1. Spatial Feature Extraction: 1024-channel SBP features are normalized and projected onto the top 32 Principal Components (PCA).) Tj
+0 -10.5 Td /F3 8.5 Tf (2. Continuous State Estimation: A steady-state Recurrent Kalman Filter (RKF) models neural state transitions and cursor kinematics:) Tj
+0 -10.5 Td /F3 8.5 Tf (   State Equation: x_t = A * x_{t-1} + w_t | Observation Equation: z_t = H * x_t + v_t | Kalman Gain: K_t = P_t * H^T * (H P_t H^T + R)^{-1}) Tj
+0 -10.5 Td /F3 8.5 Tf (3. Deep Recurrent Decoder: A dual-layer Gated Recurrent Unit (GRU) neural network with 128 hidden units captures non-linear motor intent.) Tj
+0 -10.5 Td /F3 8.5 Tf (4. Discrete Click Classifier: Multi-class softmax classifier detects intended index finger tap, left-click, right-click, and click-and-drag.) Tj
+0 -10.5 Td /F3 8.5 Tf (5. Adaptive Unsupervised Recalibration: Online background retraining updates Kalman matrices (A, H) every 60 seconds without pausing control.) Tj
+0 -15 Td /F1 11 Tf (8. The PRIME Clinical Trial: Human Quadriplegia Benchmark Results) Tj
+0 -12 Td /F3 8.5 Tf (The ongoing PRIME Study (Precise Robotically Implanted Brain-Computer Interface) evaluated clinical efficacy in quadriplegic participants:) Tj
+0 -10.5 Td /F3 8.5 Tf (- Cursor Control Bit Rate: Participant achieved peak bitrate of 10.2 Bits Per Second (BPS) on standard Fitts Law target acquisition task.) Tj
+0 -10.5 Td /F3 8.5 Tf (  (Comparative clinical benchmark: legacy wired Utah array record = 4.8 BPS; non-invasive EEG BCIs = 0.5 - 1.2 BPS).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Typing Velocity: Achieved 38.4 correct words per minute (WPM) on virtual QWERTY on-screen keyboard without physical assistance.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Daily Operational Usage: Sustained average of 9.4 hours per day for web browsing, digital design (CAD), online chess, and video gaming.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Thread Micro-Retraction & Algorithmic Recovery: Initial post-surgical thread retraction was compensated by re-weighting remaining active) Tj
+0 -10.5 Td /F3 8.5 Tf (  channels, restoring >95% peak decoding throughput and demonstrating software decoder fault tolerance.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Safety Milestones: 0 infections, 0 intracranial hematomas, 0 device-related neurological deficits across >365 cumulative implant days.) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 2924 >>
+stream
+BT /F1 13 Tf 40 740 Td (9. Next-Generation Horizons: Visual Cortical Prosthesis (Blindsight) & 10,000-Channel IO) Tj
+0 -18 Td /F3 8.5 Tf (Neuralink is extending the N1 architecture from recording-only motor prosthetics to high-bandwidth bidirectional neuromodulation systems.) Tj
+0 -15 Td /F1 11 Tf (9.1. Blindsight: Intracortical Visual Cortex Stimulation) Tj
+0 -12 Td /F3 8.5 Tf (- Target Anatomy: Direct microstimulation of Primary Visual Cortex (Area V1, Brodmann Area 17, Layer IVc) for profound blindness recovery.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Phosphene Generation: Charge-balanced cathodic-first biphasic current pulses (10 to 80 uA amplitude, 200 us phase width, 100 Hz frequency).) Tj
+0 -10.5 Td /F3 8.5 Tf (- Spatial Phosphene Mapping: Individual microelectrodes evoke localized punctate light sensations (phosphenes) in the visual field.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Resolution Roadmap: Initial 1024-phosphene array provides navigational vision (shape recognition); scaling to 16,384 channels) Tj
+0 -10.5 Td /F3 8.5 Tf (  approaches high-acuity facial recognition and visual text reading.) Tj
+0 -15 Td /F1 11 Tf (9.2. Scalable Next-Generation Platform Roadmap) Tj
+0 -12 Td /F3 8.5 Tf (- 16k-Channel High-Density Thread Array: Sub-micron CMOS integration targeting 16,384 simultaneous recording/stimulation channels.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Subcortical & Deep Brain Stimulation: Targeting basal ganglia, thalamus, and hippocampal formations for neuro-degenerative disease intervention.) Tj
+0 -10.5 Td /F3 8.5 Tf (- Ultra-Wideband Optical Telemetry: Exploring multi-gigabit infra-red subcutaneous optical transceivers for full raw broadband streaming.) Tj
+0 -15 Td /F1 11 Tf (10. Summary of Key Technical & Clinical Specifications Table) Tj
+0 -12 Td /F2 8.5 Tf (| Metric / Parameter                     | N1 Specification Value                     | Unit / Standard               |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Total Recording Channels              | 1024 electrodes across 64 polyimide threads | Channels                      |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Thread Dimensions & Depth             | 4-6 um thickness, 5-50 um width, 3.5-5.0mm | Micrometers (um) / mm         |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Analog Front-End Noise & Sampling     | <4.2 uVrms noise, 20 kHz 10-bit SAR ADCs   | uVrms / kHz                   |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Enclosure & Feedthrough Hermeticity   | 23mm Ti-6Al-4V, <5e-10 atm-cc/s leak rate  | mm / atm-cc/sec               |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Telemetry & Encryption               | 2.4 GHz BLE 5.3, 2.2 Mbps, AES-128-GCM     | Mbps / Cryptographic Standard |) Tj
+0 -10.5 Td /F3 8.5 Tf (| Wireless Inductive Recharge Time      | 6.78 MHz resonant link, 75 min (0-100%)    | Minutes / 12.5 hr battery     |) Tj
+0 -10.5 Td /F3 8.5 Tf (| PRIME Trial Peak Cursor Bitrate       | 10.2 Bits Per Second (BPS), 38.4 WPM       | BPS / Words Per Minute        |) Tj
+ET
 endstream
 endobj
 xref
-0 12
+0 18
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000128 00000 n 
-0000000203 00000 n 
-0000000278 00000 n 
-0000000348 00000 n 
-0000000494 00000 n 
-0000001661 00000 n 
-0000001807 00000 n 
-0000002828 00000 n 
-0000002976 00000 n 
+0000000149 00000 n 
+0000000224 00000 n 
+0000000299 00000 n 
+0000000369 00000 n 
+0000000515 00000 n 
+0000003880 00000 n 
+0000004026 00000 n 
+0000006418 00000 n 
+0000006566 00000 n 
+0000008633 00000 n 
+0000008781 00000 n 
+0000010926 00000 n 
+0000011074 00000 n 
+0000013958 00000 n 
+0000014106 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R >>
+<< /Size 18 /Root 1 0 R >>
 startxref
-3987
+17083
 %%EOF
