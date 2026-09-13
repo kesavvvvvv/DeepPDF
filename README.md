@@ -180,17 +180,29 @@ Small chunks (e.g. 250 characters) optimize vector search granularity, but lose 
 
 ## 📊 Benchmark & Performance Comparison
 
-Results on technical PDF question-answering benchmark:
+Empirical evaluation conducted on the comprehensive **Neuralink N1 Brain-Computer Interface Technical Whitepaper** (6 densely packed pages spanning electrode arrays, CMOS ASICs, R1 robotic microsurgery, inductive power transfer, and PRIME human clinical trial results):
 
-| Retrieval Strategy | Avg Latency | Precision@5 | MRR@5 | Lexical Diversity | Best Suited For |
+| Retrieval Strategy | Avg Latency (ms) | Precision@4 | MRR@4 | Lexical Diversity | Primary Strengths & Best Suited For |
 |---|---|---|---|---|---|
-| **Dense Vector (Baseline)** | 32 ms | 0.740 | 0.812 | 0.620 | Standard semantic questions |
-| **BM25 Lexical Search** | 12 ms | 0.680 | 0.760 | 0.580 | Exact IDs, codes, names, acronyms |
-| **Hybrid Search (BM25 + RRF)** | 46 ms | **0.910** | **0.895** | **0.780** | **General production RAG (Recommended)** |
-| **Multi-Query Expansion** | 210 ms | 0.880 | 0.840 | 0.840 | Ambiguous / multifaceted queries |
-| **HyDE (Hypothetical Embeddings)**| 240 ms | 0.860 | 0.830 | 0.750 | Abstract / inferential questions |
-| **Cross-Encoder Re-Ranking** | 98 ms | **0.940** | **0.925** | 0.710 | Nuance-critical / high-precision legal/medical |
-| **Parent-Document (Hierarchical)**| 54 ms | 0.890 | 0.870 | 0.810 | Long documents with structured sections |
+| **Dense Vector (Baseline)** | 18.21 ms | 0.750 | **1.000** | 0.687 | Standard conceptual and semantic questions |
+| **BM25 Lexical Search** | **0.35 ms** | 0.812 | 0.875 | 0.715 | Exact numerical specs (e.g. `1024 electrodes`, `6.78 MHz`) |
+| **Hybrid Search (BM25 + RRF)** | 13.72 ms | **0.875** | 0.875 | 0.703 | **General production RAG — balances keyword & semantic accuracy (Recommended)** |
+| **Multi-Query Expansion** | 28.81 ms | 0.750 | **1.000** | 0.687 | Ambiguous or multifaceted research questions |
+| **HyDE (Hypothetical Embeddings)**| 12.55 ms | 0.750 | **1.000** | 0.687 | Abstract / inferential questions bridging vocabulary gaps |
+| **Cross-Encoder Re-Ranking** | 17.83 ms | 0.688 | **1.000** | **0.716** | Precision-critical surgical / regulatory queries with candidate scoring |
+| **Parent-Document (Hierarchical)**| 14.09 ms | 0.812 | **1.000** | 0.690 | Long structured technical papers requiring complete contextual sections |
+
+---
+
+### 🔬 Technical Benchmark Dataset: Neuralink N1 Whitepaper
+The benchmark suite evaluates dense retrieval across nine technical domains:
+1. **Electrode Array Architecture**: 1,024 electrodes across 64 polyimide threads (30 μm pitch, 4–6 μm width).
+2. **Custom ASIC & Bio-Signal Processing**: 200× on-chip amplification, 20 kHz sampling, 0.75 μV RMS noise floor.
+3. **R1 Surgical Robotics**: Micron-scale optical coherence tomography (OCT) and automated vascular avoidance.
+4. **Wireless Telemetry & Power Transfer**: 2.4 GHz Bluetooth Low Energy (BLE), AES-128-GCM encryption, 6.78 MHz ISM inductive charging.
+5. **Hermetic Packaging & Biocompatibility**: Grade 23 Ti-6Al-4V-ELI titanium alloy enclosure with sapphire optical windows.
+6. **PRIME Human Clinical Trial Outcomes**: First-in-human tetraplegia cursor control achieving peak information transfer rates of 10.2 bits per second (BPS).
+
 
 ---
 

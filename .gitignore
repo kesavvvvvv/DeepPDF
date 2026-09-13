@@ -27,6 +27,10 @@ wheels/
 
 # Project Data & Vector Store
 data/vectorstore/
+data/vectorstore_*/
+data/test_*/
 *.chroma
 .cache/
 .pytest_cache/
+
+
